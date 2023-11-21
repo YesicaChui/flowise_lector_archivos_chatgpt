@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F1F0E8;
+}
+
+.logo {
+  display: flex;
+ justify-content: center;
+ gap: 15px;
+}
+
+.buscador {
+  background-color: #EEE0C9;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.input {
+  font-size: 20px;
+  border: none;
+  background-color: #EEE0C9;
+  padding: 10px;
+  outline-color: #96B6C5;
+  margin: 10px 0;
+  margin-right: 10px;
+  width: 80%;
+  text-align: center;
+
+
+}
+
+.boton {
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  color: #F1F0E8;
+  background-color: #96B6C5;
+  font-size: 25px;
+  cursor: pointer;
+
+}
+
+.container { 
+  font-family: Roboto;
+  background-color: #EEE0C9;
+  border-radius: 10px;
+  padding: 40px 80px;
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+  text-align: center;
+  white-space: pre-wrap;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Estilo para el input file y su label */
+.file-label {
+  display: block;
+  width: 100%;
+  background-color: #a3e5ba;
+ 
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  color: #96B6C5;
+  font-size: 22px;
+  font-weight: bold;
+}
+.file-label:hover{
+  background-color: #38d16d;
+  color: white
+}
+
+.input-file {
+  display: none; /* Oculta el input file, pero sigue siendo accesible a través de la label */
+}
+

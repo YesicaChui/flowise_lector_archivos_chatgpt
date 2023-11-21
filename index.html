@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatear con documentos</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="logo">
+    <h1>Yesica - Conversa con tus documentos</h1>
+    <img src="./img/logo.svg" alt="">
+  </div>
+  <div class="buscador">
+    <label for="inputFile" class="file-label" id="file-selected">
+      Subir Archivo
+    </label>
+    <input type="file" id="inputFile" class="input-file" onchange="updateFileName()" />
+
+    <input id="inputPregunta" class=" input" "text" placeholder="¿Que deseas saber del documento?"><br>
+    <button id="btnArmar" class="boton" onclick="onIniciarChatDocument()">Realizar Pregunta</button>
+  </div>
+  <div class="container"></div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
